@@ -18,3 +18,4 @@
 |_Nova Versão Transformadora_|**NVT**|
 |_Tradução Brasileira_|**TB**|
  
+![](img/app.png)
