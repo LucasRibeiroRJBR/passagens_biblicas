@@ -90,7 +90,7 @@ class App(ctk.CTk):
             case 'King James Fiel': arquivo = 'biblias/KJF.sqlite'
             case 'Nova Almeida Atualizada': arquivo = 'biblias/NAA.sqlite'
             case 'Nova Bíblia Viva': arquivo = 'biblias/NBV.sqlite'
-            case 'Nova Tradução na Linguagem de Hoje': arquivo =  'biblias/NTHL.sqlite'
+            case 'Nova Tradução na Linguagem de Hoje': arquivo =  'biblias/NTLH.sqlite'
             case 'Nova Versão Internacional': arquivo = 'biblias/NVI.sqlite'
             case 'Nova Versão Transformadora': arquivo = 'biblias/NVT.sqlite'
             case 'Tradução Brasileira': arquivo = 'biblias/TB.sqlite'
