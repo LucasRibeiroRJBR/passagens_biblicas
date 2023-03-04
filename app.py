@@ -6,6 +6,8 @@ class App(ctk.CTk):
     def __init__(self):
         super().__init__()
 
+        self.title('Passagens Bíblicas')
+
         self.grid_columnconfigure(0,weight=1)
         self.grid_columnconfigure(1,weight=1)
         self.grid_columnconfigure(2,weight=1)
@@ -49,9 +51,9 @@ class App(ctk.CTk):
                                              width=200)
 
         self.lb_capitulo = ctk.CTkLabel(master=self,text='Capítulo',font=self.lb_general)
-        self.in_capitulo = ctk.CTkEntry(master=self,textvariable=self.vCapitulo)
+        self.in_capitulo = ctk.CTkEntry(master=self,textvariable=self.vCapitulo,font=self.lb_general)
         self.lb_versiculo = ctk.CTkLabel(master=self,text='Versículo',font=self.lb_general)
-        self.in_versiculo = ctk.CTkEntry(master=self,textvariable=self.vVersiculo)
+        self.in_versiculo = ctk.CTkEntry(master=self,textvariable=self.vVersiculo,font=self.lb_general)
         
         self.menu_versao = ctk.CTkOptionMenu(master=self,
                                              values=self.versoes_nomes,
