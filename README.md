@@ -18,4 +18,11 @@
 |_Nova Versão Transformadora_|**NVT**|
 |_Tradução Brasileira_|**TB**|
  
-![](img/app.png)
+![](img/app.png)  
+
+---
+
+>## Bibliografias  
+
+Arquivos da bíblia em SQLite3 →　[aqui](https://altamiro.comunidades.net/biblias)  
+Icon by <a href="https://freeicons.io/profile/714">Raj Dev</a> on <a href="https://freeicons.io">freeicons.io</a>
